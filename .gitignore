@@ -1,0 +1,31 @@
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.so
+*.pyd
+.DS_Store
+*.log
+*.out
+.env
+venv/
+venv_vllm/
+.vscode/
+.idea/
+
+# Results
+results/
+models/
+
+# Lemonade repo (cloned separately)
+lemonade/*
+
+# llama.cpp build
+llama.cpp/
+
+# vLLM repo (cloned separately)
+vllm/
+
+# Downloaded datasets cache
+~/.cache/huggingface/
